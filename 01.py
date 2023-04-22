@@ -1,0 +1,6 @@
+l = int(input())
+c = int(input())
+um = (l*c) + ((l-1)*(c-1))
+dois = 2*((l-1)+(c-1))
+print(um)
+print(dois)
