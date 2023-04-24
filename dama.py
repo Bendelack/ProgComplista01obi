@@ -15,6 +15,8 @@ while cond:
             lista.append(1)
         elif x1+y1 == 2 and x2 + y2 == 4:
             lista.append(1)
+        elif x1-y1 == x2-y2:
+            lista.append(1)
         else:
             lista.append(2)
 for x in lista:
